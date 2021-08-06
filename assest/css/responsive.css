@@ -1,0 +1,73 @@
+/*X-Small devices (portrait phones, less than 576px)*/ 
+@media (max-width: 575.98px) {
+    .top-left{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .social-link, .coppy-wright-area{
+        text-align: center;
+    }
+    .slide-contant h1 {
+    font-size: 35px;
+    }
+    .cta-aria::after {
+        width: 100%;
+    }
+    .cta-aria::before {
+    display: none;
+
+    }
+    .cta-aria p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+    .mobile-padding-0 {
+    padding-top: 0;
+    }
+    .section-title:before, .section-title:after{
+        display: none!important;
+    }
+    .navbar-nav li a {
+    padding: 4px 10px !important;
+    }
+}
+
+/*Small devices (landscape phones, less than 768px)*/ 
+@media (max-width: 767.98px) {
+    .section-title:before {
+    display: none;
+    }
+    .section-title:after {
+    display: none;
+    }
+    .section-title:before, .section-title:after{
+        display: none!important;
+    }
+
+}
+
+/*Medium devices (tablets, less than 992px)*/ 
+@media (max-width: 991.98px) {
+    .haeader-area {
+    padding: 20px 0;
+    }
+    .slide-contant {
+    width: 80%;
+    }
+    .owl-dots {
+    bottom: 20px;
+    right: 45%;
+    display: flex;
+    top:auto;
+    }
+    .section-title:before {
+    width: 153px;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/*X-Large devices (large desktops, less than 1400px)*/ 
+@media (max-width: 1399.98px) { ... }
